@@ -1,12 +1,34 @@
-import random
-from nba_api.stats.static import players
-
-# Get the player dictionary
-player_dict = players.get_players()
-
-# Randomly select 5 players
-random_players = random.sample(player_dict, 5)
-
-# Print their names
-for player in random_players:
-    print(player["full_name"])
+{"name": "LeBron James", "position": "Forward", "rating": 98, "height": 80},
+        {"name": "Stephen Curry", "position": "Guard", "rating": 96, "height": 75},
+        {"name": "Kevin Durant", "position": "Forward", "rating": 97, "height": 81},
+        {"name": "Giannis Antetokounmpo", "position": "Forward", "rating": 96, "height": 83},
+        {"name": "Nikola Jokic", "position": "Center", "rating": 96, "height": 82},
+        {"name": "Joel Embiid", "position": "Center", "rating": 95, "height": 84},
+        {"name": "Luka Doncic", "position": "Guard", "rating": 95, "height": 78},
+        {"name": "Jayson Tatum", "position": "Forward", "rating": 94, "height": 80},
+        {"name": "Ja Morant", "position": "Guard", "rating": 93, "height": 75},
+        {"name": "Damian Lillard", "position": "Guard", "rating": 92, "height": 76},
+        {"name": "Jimmy Butler", "position": "Guard", "rating": 91, "height": 79},
+        {"name": "Anthony Davis", "position": "Center", "rating": 90, "height": 82},
+        {"name": "Paul George", "position": "Forward", "rating": 90, "height": 81},
+        {"name": "Kawhi Leonard", "position": "Forward", "rating": 90, "height": 79},
+        {"name": "Devin Booker", "position": "Guard", "rating": 89, "height": 77},
+        {"name": "Trae Young", "position": "Guard", "rating": 89, "height": 74},
+        {"name": "Donovan Mitchell", "position": "Guard", "rating": 88, "height": 76},
+        {"name": "Karl-Anthony Towns", "position": "Center", "rating": 88, "height": 83},
+        {"name": "Zach LaVine", "position": "Guard", "rating": 88, "height": 78},
+        {"name": "Bradley Beal", "position": "Guard", "rating": 87, "height": 77},
+        {"name": "Kyrie Irving", "position": "Guard", "rating": 87, "height": 75},
+        {"name": "Bam Adebayo", "position": "Center", "rating": 87, "height": 81},
+        {"name": "De'Aaron Fox", "position": "Guard", "rating": 86, "height": 76},
+        {"name": "Pascal Siakam", "position": "Forward", "rating": 86, "height": 81},
+        {"name": "Jaylen Brown", "position": "Guard", "rating": 86, "height": 79},
+        {"name": "Shai Gilgeous-Alexander", "position": "Guard", "rating": 89, "height": 78},
+        {"name": "DeMar DeRozan", "position": "Guard", "rating": 85, "height": 79},
+        {"name": "James Harden", "position": "Guard", "rating": 85, "height": 77},
+        {"name": "Anthony Edwards", "position": "Guard", "rating": 84, "height": 78},
+        {"name": "Kristaps Porzingis", "position": "Center", "rating": 84, "height": 85},
+        {"name": "Domantas Sabonis", "position": "Forward", "rating": 84, "height": 82},
+        {"name": "Jrue Holiday", "position": "Guard", "rating": 84, "height": 77},
+        {"name": "LaMelo Ball", "position": "Guard", "rating": 83, "height": 78},
+        
