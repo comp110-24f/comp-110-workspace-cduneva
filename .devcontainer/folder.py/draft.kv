@@ -1,0 +1,40 @@
+<DraftGame>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+
+    Label:
+        text: 'NBA Player Draft Game'
+        font_size: 24
+        size_hint_y: None
+        height: 50
+
+    Label:
+        text: f"Current Player: Player {root.current_player}"
+        font_size: 18
+        size_hint_y: None
+        height: 30
+
+    Label:
+        text: root.current_card
+        font_size: 20
+        size_hint_y: None
+        height: 40
+
+    Button:
+        text: 'Draft Player'
+        on_press: root.draft_card()
+        size_hint_y: None
+        height: 50
+
+    Label:
+        text: f"Player 1 Cards: {root.player1_cards}"
+        font_size: 16
+        size_hint_y: None
+        height: 30
+
+    Label:
+        text: f"Player 2 Cards: {root.player2_cards}"
+        font_size: 16
+        size_hint_y: None
+        height: 30
